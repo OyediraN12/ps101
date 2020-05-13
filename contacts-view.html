@@ -365,7 +365,7 @@
                     Company:  <br>
                     Acess: <br>
                     Tags: <br>
-                    Emails: <br>
+                    Emails: <a href="#" data-toggle="modal" data-target="#myModal"> sam@gmail.com</a> <br>
                     Encription: <br>
                     phone: <br>
                     position: <br>
@@ -389,7 +389,6 @@
               <div class="card">
                 <div class="card-header">
                   Events
-                  <small>nesting</small>
                 </div>
                 <div class="card-body">
                   No event 
@@ -398,7 +397,6 @@
               <div class="card">
                 <div class="card-header">
                   Deals
-                  <small>nesting</small>
                 </div>
                 <div class="card-body">
                   present
@@ -407,20 +405,9 @@
               <div class="card">
                 <div class="card-header">
                   Task
-                  <small>nesting</small>
                 </div>
                 <div class="card-body">
                   Present
-                  </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header">
-                  Button group
-                  <small>nesting</small>
-                </div>
-                <div class="card-body">
-                  dsds
                   </div>
               </div>
 
@@ -703,9 +690,57 @@
 
   </div>
   <footer class="app-footer">
-    <span><a href="http://coreui.io/pro/">CoreUI Pro</a> © 2017 creativeLabs.</span>
-    <span class="ml-auto">Powered by <a href="http://coreui.io/pro/">CoreUI Pro</a></span>
+    <span><a href="#">Agent Portal</a> © 2020</span>
   </footer>
+
+  <!--Modal-->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Email John JOshua</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-row mb-3">
+              <label for="to" class="col-3 col-sm-2 col-form-label">To:</label>
+              <div class="col-9 col-sm-10">
+                <input type="email" class="form-control" id="to" placeholder="Type email" value="sam@gmail.com" disabled>
+              </div>
+            </div>
+            <div class="form-row mb-3">
+              <label for="to" class="col-3 col-sm-2 col-form-label">Subject:</label>
+              <div class="col-9 col-sm-10">
+                <input type="email" class="form-control" id="to" placeholder="Subject">
+              </div>
+            </div>
+            <div class="form-row mb-3">
+              <label for="to" class="col-3 col-sm-2 col-form-label">Body:</label>
+              <div class="col-9 col-sm-10">
+                <textarea class="form-control" id="message" name="body" rows="12" placeholder="Click here to reply"></textarea>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              <i class="fa fa-times"></i>
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">
+              <i class="fa fa-check"></i>
+              Save changes
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
 
   <!-- Bootstrap and necessary plugins -->
   <script src="vendors/js/jquery.min.js"></script>
