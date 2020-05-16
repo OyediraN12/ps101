@@ -347,100 +347,109 @@
   <main class="main">
     <div class="jumbotron text-center" style="background-color: #ffff;">
         <h1>WELCOME ONBOARD!!</h1>
-        <p></p> 
-      </div>
+    </div>
+        
 
-      <div class="container-fluid">
-
-        <div class="animated fadeIn">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card">
-                <div class="card-header">
-                  <i class="icon-note"></i>
-                  <div class="card-actions">
-                    <a href="https://github.com/jzaefferer/jquery-validation">Info</a>
-                      
-                   
+    <div class="container-fluid">
+      <div class="animated fadeIn">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-5">
+                <h3 class="card-title clearfix mb-0">Personal Information</h3><br>
+                <h6>Fill in Details Correctly</h6>
+              </div>
+              <!-- <div class="col-sm-7">
+                <button type="button" class="btn btn-outline-primary float-right ml-3">
+                  <i class="fa fa-edit"></i> &nbsp; New
+                </button>
+              </div> -->
+              <!--/.row-->
+            </div>
+            <hr class="m-0">
+          <!-- card body-->
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="name">First Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your First Name">
+                </div>
+                <div class="form-group">
+                  <label for="name">Company Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your Company Name">
+                </div>
+                <div class="form-group">
+                  <label for="name">Cell phone</label>
+                  <input type="tel" class="form-control" id="name" placeholder="Enter your Cell Number">
+                </div>
+                <!-- /.col-sm-6-->
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="name">Last Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Last Name">
+                </div>
+                <div class="form-group">
+                  <label for="name">Mailing Address</label>
+                  <input type="email" class="form-control" id="name" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                  <label for="name">Home Number</label>
+                  <input type="tel" class="form-control" id="name" placeholder="Enter your Home Number">
+                </div>
+              </div>
+              <div class="col-sm-6 " >
+              
+                  <div class="form-group">
+                    <label for="name">Social Security / TIN Number</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Social Security / TIN Number ">
+                  </div>
+                  <div class="form-group">
+                    <label for="Date">Date Of Birth</label>
+                    <input type="Date" class="form-control" id="name" >
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Login Username</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Username">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Login Password</label>
+                    <input type="password" class="form-control" id="name" placeholder="Enter Password ">
+                  </div>
+                  <div class="form-actions">
+                    <button type="button" class="btn btn-secondary">
+                      <i class="fa fa-times"></i>
+                      Discard
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fa fa-check"></i>
+                      Save
+                    </button>
                   </div>
                 </div>
-                <div class="card-body">
-                  Fill in all details correctly!
-                  <hr>
-                  <div class="col-md-7">
-                    
-                      <h6><strong>Personal Information</strong></h6>
-                      <form>
-                        <div class="form-row">
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault01">First name</label>
-                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
-                          </div>
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault02">Last name</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
-                          </div>
-                          <div class="col-md-6 mb-3">
-                            <label for="validationDefault02">Company Name</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
-                          </div>
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault02">Email Address</label>
-                            <input type="email" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
-                          </div>
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault02">Phone Number</label>
-                            <input type="tel" class="form-control" id="validationDefault02" placeholder="Phone number" value="" required>
-                          </div>
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault02">Home Number</label>
-                            <input type="tel" class="form-control" id="validationDefault02" placeholder="Home number" value="" required>
-                          </div>
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault02">Social Security / TIN Number</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Social Security / TIN Number" value="" required>
-                          </div>
-                          <div class="col-md-5 mb-3">
-                            <label for="validationDefault02">Date Of Birth</label>
-                            <input type="date" class="form-control" id="validationDefault02" placeholder="Date Of Birth" value="" required>
-                          </div>
-                          <div class="col-md-4 mb-3">
-                            <label for="validationDefaultUsername">Username</label>
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                              </div>
-                              <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
-                            </div>
-                          </div>
-                          <div class="col-md-4 mb-3">
-                            <label for="validationDefaultUsername">Password</label>
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                              </div>
-                              <input type="password" class="form-control" id="pwd" placeholder="Password" aria-describedby="inputGroupPrepend2" required>
-                            </div>
-                          </div>
-                        <div class="form-group">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                            <label class="form-check-label" for="invalidCheck2">
-                              Agree to terms and conditions
-                            </label>
-                          </div>
-                        </div>
-                        
-                        <hr>
-                        <div class= col-lg-4 >
-                            <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
-                            <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
-                          </div>
-                        
-                      </form>
-      <!-- /.conainer-fluid -->
-    </main>
+                
+              </div>
+            </div>
+           <!-- /. row -->
+            </div>
+            
+          </div>
+        </div>
+      <br>
+    </div>
+    <!--/.container-fluid-->
+  </div>
+      </div>
+    </div>
+    
+
+
+     
+   </main>
         
+
     
           
  
