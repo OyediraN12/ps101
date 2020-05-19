@@ -379,11 +379,6 @@
                   <h3 class="card-title clearfix mb-0">Personal Information</h3><br>
                   <h6>Fill in Details Correctly</h6>
                 </div>
-                <!-- <div class="col-sm-7">
-                <button type="button" class="btn btn-outline-primary float-right ml-3">
-                  <i class="fa fa-edit"></i> &nbsp; New
-                </button>
-              </div> -->
                 <!--/.row-->
               </div>
               <hr class="m-0">
@@ -435,17 +430,18 @@
                     <label for="name">Login Password</label>
                     <input type="password" class="form-control" id="name" placeholder="Enter Password ">
                   </div>
+                  <!-- col-sm-6  -->
                 </div>
-                <div class="form-actions">
-                  <button type="button" class="btn btn-secondary">
-                    <i class="fa fa-times"></i>
-                    Discard
-                  </button>
-                  <button type="submit" class="btn btn-primary">
-                    <i class="fa fa-check"></i>
-                    Save
-                  </button>
-                </div>
+              </div>
+              <div class="form-actions">
+                <button type="button" class="btn btn-secondary">
+                  <i class="fa fa-times"></i>
+                  Discard
+                </button>
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa fa-check"></i>
+                  Save
+                </button>
               </div>
             </div>
           </div>
@@ -471,7 +467,15 @@
                         <td>Carwyn Fachtna</td>
                         <td>2012/01/01</td>
                         <td>
-                          <span class="badge badge-success">Active</span>
+                          <a class="btn btn-success btn-sm" href="agents-view.html">
+                            <i class="fa fa-search-plus "></i>
+                          </a>
+                          <a class="btn btn-info btn-sm" href="#">
+                            <i class="fa fa-edit "></i>
+                          </a>
+                          <a class="btn btn-danger btn-sm" href="#">
+                            <i class="fa fa-trash-o "></i>
+                          </a>
                         </td>
                       </tr>
                     </tbody>

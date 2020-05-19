@@ -1,4 +1,4 @@
-$(function(){
+$(function () {
 
   $('#calendar').fullCalendar({
     header: {
@@ -63,7 +63,12 @@ $(function(){
         title: 'Click for Google',
         url: 'http://google.com/',
         start: '2016-01-28'
-      }
+      },
+      {
+        title: 'Dinner',
+        url: 'tasks-view.html',
+        start: '2020-05-19T10:00:00'
+      },
     ]
   });
 });
