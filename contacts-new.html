@@ -394,53 +394,53 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="name">Full Name </label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="full_name">Full Name </label>
+                    <input type="text" class="form-control" id="fill_name" placeholder="Enter your name" name="full_name">
                   </div>
                   <div class="form-group">
-                    <label for="name">Email</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter your name" name="email">
                   </div>
                   <fieldset class="form-group">
                     <label>Status</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="status" class="form-control select2-single" name="status">
                       <option>Public</option>
                       <option>Private</option>
                     </select>
                   </fieldset>
                   <div class="form-group">
-                    <label for="">Address</label>
+                    <label for="address">Address</label>
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="form-group">
                           <label for="cvv">Street Address</label>
-                          <input type="text" class="form-control" id="cvv" placeholder="Street Address">
+                          <input type="text" class="form-control" id="street_address" placeholder="Street Address" name="street_address">
                         </div>
                       </div>
                       <div class="col-sm-6">
                         <div class="form-group">
-                          <label for="cvv">City</label>
-                          <input type="text" class="form-control" id="cvv" placeholder="City">
+                          <label for="city">City</label>
+                          <input type="text" class="form-control" id="city" placeholder="City" name="city">
                         </div>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-sm-4">
                         <div class="form-group">
-                          <label for="cvv">State</label>
-                          <input type="text" class="form-control" id="cvv" placeholder="State">
+                          <label for="state">State</label>
+                          <input type="text" class="form-control" id="state" placeholder="State" name="state">
                         </div>
                       </div>
                       <div class="col-sm-4">
                         <div class="form-group">
                           <label for="cvv">Zip Code</label>
-                          <input type="text" class="form-control" id="cvv" placeholder="Zip Code">
+                          <input type="text" class="form-control" id="zip_code" placeholder="Zip Code" name="zip_code">
                         </div>
                       </div>
                       <div class="col-sm-4">
                         <div class="form-group">
-                          <label for="cvv">Country</label>
-                          <select id="select1" name="select1" class="form-control">
+                          <label for="country">Country</label>
+                          <select id="country" name="country" class="form-control">
                             <option value="0">Please select</option>
                             <option value="1">Option #1</option>
                             <option value="2">Option #2</option>
@@ -455,29 +455,29 @@
                 <div class="col-sm-6">
                   <fieldset class="form-group">
                     <label>Access</label>
-                    <select id="select1" name="select1" class="form-control">
+                    <select id="access" name="access" class="form-control">
                       <option value="0">Public</option>
                       <option value="1">Private</option>
                     </select>
                   </fieldset>
                   <fieldset class="form-group">
                     <label>Company</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="company" class="form-control select2-single" name="company">
                       <option>Public</option>
                       <option>Private</option>
                     </select>
                   </fieldset>
                   <div class="form-group">
-                    <label for="name">Tags</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="tags">Tags</label>
+                    <input type="text" class="form-control" id="tags" placeholder="Enter your name" name="tags">
                   </div>
                   <div class="form-group">
-                    <label for="">Phone</label>
+                    <label for="phone">Phone</label>
                     <div class="row">
                       <div class="col-sm-4">
                         <div class="form-group">
-                          <label for="cvv">Country</label>
-                          <select id="select1" name="select1" class="form-control">
+                          <label for="country">Country</label>
+                          <select id="country" name="select1" class="form-control" name="country">
                             <option value="0">United States</option>
                             <option value="1">Option #1</option>
                             <option value="2">Option #2</option>
@@ -488,13 +488,13 @@
                       <div class="col-sm-4">
                         <div class="form-group">
                           <label for="number">Number</label>
-                          <input type="text" class="form-control" id="number" placeholder="Number">
+                          <input type="text" class="form-control" id="number" placeholder="Number" name="number">
                         </div>
                       </div>
                       <div class="col-sm-4">
                         <div class="form-group">
                           <label for="home">Home</label>
-                          <input type="text" class="form-control" id="home" placeholder="Home">
+                          <input type="text" class="form-control" id="home" placeholder="Home" name="home">
                         </div>
                       </div>
                     </div>
@@ -504,7 +504,7 @@
                         <span class="input-group-prepend">
                           <span class="input-group-text"><i class="fa fa-calendar"></i></span>
                         </span>
-                        <input name="daterange" class="form-control" type="text">
+                        <input name="birthday" class="form-control" type="text" id="birthday">
                       </div>
                     </fieldset>
                     <!-- form group phone -->

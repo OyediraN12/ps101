@@ -394,16 +394,16 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="name">Title</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="title">Title</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter title" name="title">
                   </div>
                   <div class="form-group">
-                    <label for="name">Assigned To</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="assigned_to">Assigned To</label>
+                    <input type="text" class="form-control" id="assigned_to" placeholder="" name="assigned_to">
                   </div>
                   <fieldset class="form-group">
                     <label>Products</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="products" class="form-control select2-single" name="products">
                       <option>Public</option>
                       <option>Private</option>
                     </select>
@@ -414,7 +414,7 @@
                       <span class="input-group-prepend">
                         <span class="input-group-text"><i class="fa fa-calendar"></i></span>
                       </span>
-                      <input name="daterange" class="form-control" type="text">
+                      <input name="close_date" class="form-control" type="text" >
                     </div>
                   </fieldset>
                   <!-- /.col-sm-6-->
@@ -422,28 +422,28 @@
                 <div class="col-sm-6">
                   <fieldset class="form-group">
                     <label>Access</label>
-                    <select id="select1" name="select1" class="form-control">
+                    <select id="access" name="select1" class="form-control">
                       <option value="0">Public</option>
                       <option value="1">Private</option>
                     </select>
                   </fieldset>
                   <fieldset class="form-group">
-                    <label>Company</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <label for="company">Company</label>
+                    <select id="company"class="form-control select2-single" name="company">
                       <option>Public</option>
                       <option>Private</option>
                     </select>
                   </fieldset>
                   <fieldset class="form-group">
                     <label>Contacts</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="contacts" class="form-control select2-single" name="contacts">
                       <option>Public</option>
                       <option>Private</option>
                     </select>
                   </fieldset>
                   <div class="form-group">
-                    <label for="name">Tags</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="tags">Tags</label>
+                    <input type="text" class="form-control" id="tags" placeholder="Enter tags" name="tags">
                   </div>
                 </div>
                 <!-- /. row -->
@@ -455,8 +455,8 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="name">Probability</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="probability">Probability</label>
+                    <input type="text" class="form-control" id="probability" placeholder="" name="probability">
                   </div>
                   <fieldset class="form-group">
                     <label>Commission</label>
@@ -469,7 +469,7 @@
                   </fieldset>
                   <fieldset class="form-group">
                     <label>Type</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="type" class="form-control select2-single" name="type">
                       <option>New</option>
                       <option>Old</option>
                       <option>Opportunity</option>
@@ -490,7 +490,7 @@
                   </fieldset>
                   <fieldset class="form-group">
                     <label>Stage</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="stage" class="form-control select2-single" name="stage">
                       <option>Prospect</option>
                       <option>Qualify</option>
                       <option>Research</option>
@@ -502,7 +502,7 @@
                   </fieldset>
                   <fieldset class="form-group">
                     <label>Status</label>
-                    <select id="select2-1" class="form-control select2-single">
+                    <select id="status" class="form-control select2-single" name="status">
                       <option>New</option>
                       <option>Active</option>
                       <option>Inactive</option>
